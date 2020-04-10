@@ -1,4 +1,29 @@
-footer{
-    background-color : red;
+nav{
+    display:flex;
+    float:left;
+    background-color:lightgrey;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+.wiki-title{
+    text-align:center;
+}
+
+.trailer{
+    text-align:center;
+}
+
+.banner{
+
+}
+
+.nav-link{
     color:red;
+}
+
+.active{
+    color:black;
 }
