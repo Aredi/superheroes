@@ -1,0 +1,66 @@
+nav{
+    display:flex;
+    float:left;
+}
+
+html,body{
+    margin:0;
+    padding:0;
+}
+.wiki-title{
+    text-align:center;
+}
+
+.trailer{
+    text-align:center;
+}
+
+.banner{
+
+}
+
+.nav-link{
+    color:red;
+}
+
+.active{
+    color:lightblue;
+}
+
+.powers{
+    color:lightgrey;
+}
+
+.story{
+    margin:0;
+    border-bottom: 1px solid #ff8b09;
+    color: lightgrey;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.heroname{
+    color: #ff9400 !important;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.alias{
+    font-size :15px;
+    color : #2f53ff;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+video#bgvid{
+    position :fixed; right:0; bottom:0;
+    min-width: 100%; min-height:100%;
+    width: auto; height: auto; z-index : -100;
+    background: url(assets\backgroundnovideojean.png) no-repeat;
+    background-size: cover;
+
+}
+
+video{
+    display:block;
+}
